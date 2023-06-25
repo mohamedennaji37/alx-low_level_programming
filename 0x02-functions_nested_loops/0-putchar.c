@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include "main.h"
-
-int main()
+/**
+ * main - Entry point
+ * Return:0
+ */
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
@@ -11,6 +14,5 @@ int main()
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-
-	return 0;
+	return (0);
 }
