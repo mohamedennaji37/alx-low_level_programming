@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _memcpy - irontnoux2
  * @dest: pointer to char params
@@ -6,13 +7,15 @@
  * @n: size
  * Return: *dest
  */
+
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	unsigned int ate;
+	unsigned int i;
 
-	for (ate = 0; ate < n; ate++)
+	for (i = 0; i < n; i++)
 	{
-		dset[ate] = src[ate];
+		dest[i] = src[i];
 	}
 	return (dest);
 }
+
