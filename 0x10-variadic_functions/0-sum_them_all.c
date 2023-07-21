@@ -21,3 +21,4 @@ if (n != 0)
 va_end(list);
 
 return (sum);
+}
